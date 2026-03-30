@@ -3,7 +3,7 @@ description: Minimal starter: import image, compute SMAs (13,50,200,800), show s
 publish_to: "none"
 version: 0.1.0+1
 environment:
-  sdk: ">=3.10.0 <4.0.0"
+  sdk: ">=3.11.0 <4.0.0"
 
 dependencies:
   flutter:
