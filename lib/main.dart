@@ -1,0 +1,19 @@
+name: mt5_ai_apk
+description: Minimal starter: import image, compute SMAs (13,50,200,800), show signals, pip calc.
+publish_to: "none"
+version: 0.1.0+1
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^0.8.7+4
+  fl_chart: ^0.60.0
+  path_provider: ^2.0.11
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
